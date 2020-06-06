@@ -27,7 +27,7 @@ const getLinkList = (folder) => {
       const fileSE = file.slice(0, file.length - 3)
       // convert filename to page title
       const title = signifiedToSignifier(fileSE)
-      const link = `[${title}](${folder}/${fileSE})\n\n`
+      const link = `[${title}](./${folder}/${fileSE})\n\n`
       linkList += link
     })
   
@@ -36,9 +36,9 @@ const getLinkList = (folder) => {
 
 const getHomePage = () => {
   const textsTitle = '# Texts \n'
-  const textsList = getLinkList('./texts')
+  const textsList = getLinkList('texts')
   const conceptsTitle = '# Concepts \n'
-  const conceptsList = getLinkList('./concepts')
+  const conceptsList = getLinkList('concepts')
   const page = (
     textsTitle + textsList
     + conceptsTitle + conceptsList
