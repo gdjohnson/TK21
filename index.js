@@ -21,7 +21,7 @@ const getLinkList = (folder) => {
 }
 
 const getHomePage = () => {
-  const textsTitle = '# Texts  \n';
+  const textsTitle = '# Texts!  \n';
   const textsList = getLinkList('./texts')
   return md.render(textsTitle + textsList)
 }
