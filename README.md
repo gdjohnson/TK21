@@ -11,15 +11,18 @@
 If you want to inject atomic components into a larger markdown page, use Markdownit's `.render` method.
 ```
 const page = (
-    style
-    + textsTitle + textsList
+    textsTitle + textsList
     + conceptsTitle + conceptsList
   )
-  return md.render(page)
+return md.render(page)
 ```
 
 ## Styling
-Styling is injected as an HTML style tag; that tag is found in css.js 
+Styling is injected as an HTML style tag; that tag is found in css.js. Since it exports as HTML, and markdownit's render function exports as HTML, the best option is just to concat them when calling Express's `res` method:
+```
+app.get('/', (req, res) => res.send(style + index.getHomePage()));
+```
+Here, `index.getHomePage()` returns a markdownit-rendered HTML string; that gets concatted onto the style tags, and Express renders the tags.
 
 ## Using Backlink Janitor
 This service only works for [[simple-style]] wiki links. Hopefully we can fork and add the desired getfunctionality.

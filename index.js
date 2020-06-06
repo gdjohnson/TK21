@@ -10,10 +10,6 @@ const getLinkList = (folder) => {
     .forEach((file) => {
       // get file name sans extension
       fileSE = file.slice(0, file.length - 3);
-      // const pOpen = '<p>'
-      // const link = `<a href='${folder}/${file.slice(0, file.length - 3)}'>${file}</a>`
-      // const pClose = '</p>'
-      // linkList = linkList + pOpen + link + pClose 
       const link = `[${fileSE}](${folder}/${fileSE})\n\n`
       linkList += link;
     });
@@ -27,8 +23,7 @@ const getHomePage = () => {
   const conceptsTitle = '# Concepts \n'
   const conceptsList = getLinkList('./concepts')
   const page = (
-    style
-    + textsTitle + textsList
+    textsTitle + textsList
     + conceptsTitle + conceptsList
   )
   return md.render(page)

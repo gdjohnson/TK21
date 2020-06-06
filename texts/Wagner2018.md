@@ -12,9 +12,9 @@
 
 ## Excerpts & Overview
 
-Testing [[Wagner2018|Wagner 2018 Reciprocity of Perspectives]].
+Testing [[Wagner 2018]].
 
-Example link to [[ConceptualEngineering|Conceptual Engineering]].
+Example link to [[Conceptual Engineering]].
 
 Wagner traces[^1], across aboriginal tribes, a shared concept he terms "reciprocity of perspectives," or "subject-object switch":
 
