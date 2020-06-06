@@ -17,8 +17,8 @@ const page = (
 return md.render(page)
 ```
 
-## Styling
-Styling is injected as an HTML style tag; that tag is found in css.js. Since it exports as HTML, and markdownit's render function exports as HTML, the best option is just to concat them when calling Express's `res` method:
+## CSS
+Styling is injected as an HTML style tag; that tag is found in style.js. Since it exports as HTML, and markdownit's render function exports as HTML, the best option is just to concat them when calling Express's `res` method:
 ```
 app.get('/', (req, res) => res.send(style + index.getHomePage()));
 ```
@@ -28,3 +28,6 @@ Here, `index.getHomePage()` returns a markdownit-rendered HTML string; that gets
 This service only works for [[simple-style]] wiki links. Hopefully we can fork and add the desired getfunctionality.
 1. `yarn global add @andymatuschak/note-link-janitor`
 2. `note-link-janitor /PATH/TK21/texts`
+
+## Code style
+This is a semicolon-free codebase! The only time to use semicolons is when you're running multiple methods on the same line, or similar compilation ambiguities.

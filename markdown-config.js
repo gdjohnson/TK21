@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 const camelize = (str) => {
   return str
     .replace(/(?:^\w|[A-Z]|\b\w)/g, (word) => word.toUpperCase())
@@ -41,4 +43,6 @@ const md = require('markdown-it')(mdConfig)
   .use(require('markdown-it-sup'))
   .use(require('markdown-it-front-matter'))
 
-exports.module = md
+const renderMd = (str) => md.render(str)
+
+module.exports = { renderMd }
