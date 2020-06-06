@@ -3,7 +3,7 @@ const md = require('markdown-it')()
 const style = require('./css')
 
 const getLinkList = (folder) => {
-  let linkList = style;
+  let linkList = '';
   
   fs.readdirSync(folder)
     .filter((file) => file.indexOf('.') !== 0)
@@ -22,9 +22,16 @@ const getLinkList = (folder) => {
 }
 
 const getHomePage = () => {
-  const textsTitle = '# Texts!  \n';
+  const textsTitle = '# Texts \n';
   const textsList = getLinkList('./texts')
-  return md.render(textsTitle + textsList)
+  const conceptsTitle = '# Concepts \n'
+  const conceptsList = getLinkList('./concepts')
+  const page = (
+    style
+    + textsTitle + textsList
+    + conceptsTitle + conceptsList
+  )
+  return md.render(page)
 }
 
 module.exports = { getHomePage, getLinkList };

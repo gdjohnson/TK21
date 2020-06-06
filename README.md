@@ -7,6 +7,17 @@
 1. Create a markdown file in /texts
 2. All done! The index.js file will automatically detect the filename and add a listing to the homepage. The router will automatically detect the file and serve it up, e.g. 'signifiers.md' will be under `localhost:3000/texts/signifiers`.
 
+## Creating composite pages
+If you want to inject atomic components into a larger markdown page, use Markdownit's `.render` method.
+```
+const page = (
+    style
+    + textsTitle + textsList
+    + conceptsTitle + conceptsList
+  )
+  return md.render(page)
+```
+
 ## Styling
 Styling is injected as an HTML style tag; that tag is found in css.js 
 
