@@ -9,22 +9,11 @@ const camelize = (str) => {
 const getFileList = (paths) => {
   const files = {}
   paths.forEach((path) => {
-    console.log(path);
     fs.readdirSync(path).forEach((file) => {
-      // get file name sans extension
       fileSE = file.slice(0, file.length - 3)
       files[fileSE] = path + '/' + fileSE
     })
   })
-  console.log(files);
-  // fs.readdirSync('./concepts').forEach((file) => {
-  //   fileSE = file.slice(0, file.length - 3)
-  //   files[fileSE] = '/concepts/' + fileSE
-  // })
-  // fs.readdirSync('./glossaries/all').forEach((file) => {
-  //   fileSE = file.slice(0, file.length - 3)
-  //   files[fileSE] = '/glossaries/all/' + fileSE
-  // })
   return files
 }
 
@@ -53,4 +42,4 @@ const md = require('markdown-it')(mdConfig)
 
 const renderMd = (str) => md.render(str)
 
-module.exports = { renderMd,  }
+module.exports = { renderMd, getFileList }
