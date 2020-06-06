@@ -11,6 +11,8 @@ const buildRoutes = (folders) => {
   folders.forEach((folder) => {
     app.get(`/${folder}/:id`, (req , res) => {
       let mdFile
+      console.log(req.params.id)
+      console.log(folder)
       fs.readFile(`./${folder}/${req.params.id}.md`, 'utf8', (err, data) => {
         if (err) return res.send('404 Not Found')
         mdFile = renderMd(data)
@@ -20,14 +22,13 @@ const buildRoutes = (folders) => {
   })
 }
 
-buildRoutes(['texts', 'concepts', 'glossary'])
+buildRoutes(['texts', 'concepts', 'glossary/all'])
 
 // Splash
 app.get('/', (req, res) => res.send(style + index.getHomePage()))
 
 // Glossary
-app.get('/glossary', (req, res) => {
-  return res.send(style + glossary.getIndexPage())
-})
+app.get('/glossary', (req, res) => res.send(style + glossary.getIndexPage()))
 
+// console.log(app._router.stack) // <-- If a route isn't working, check router
 app.listen(port, () => console.log(`TK21, now listening at http://localhost:${port}`))

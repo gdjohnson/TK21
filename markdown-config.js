@@ -11,7 +11,7 @@ const getFileList = (paths) => {
   paths.forEach((path) => {
     fs.readdirSync(path).forEach((file) => {
       fileSE = file.slice(0, file.length - 3)
-      files[fileSE] = path + '/' + fileSE
+      files[fileSE] = './' + path + '/' + fileSE
     })
   })
   return files
@@ -19,7 +19,7 @@ const getFileList = (paths) => {
 
 const customWikiLinks = (label) => {
   label = camelize(label)
-  fileList = getFileList(['./texts', './concepts', './glossaries/all/'])
+  fileList = getFileList(['texts', 'concepts', 'glossary/all'])
   return fileList[label]
 }
 
