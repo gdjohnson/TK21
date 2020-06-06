@@ -1,3 +1,10 @@
+---
+title: Telephone effect
+description: Them Chinese whispers
+---
+
+# Telephone effect
+
 In popular discourse, related to the effect _Concepts do not convert people; people convert concepts_. In academic discourse, _a cause of scope arguments masquerading as dichotomies_.
 
 ## Examples

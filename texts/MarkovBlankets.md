@@ -1,3 +1,12 @@
+---
+title: Markov blankets
+description: layers and layers and layers
+---
+
+# Markov blankets
+
+@[toc]
+
 ## Chat History
 
 ### 5/25/2020
