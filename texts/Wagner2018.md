@@ -1,8 +1,3 @@
----
-title: Wagner 2018 The reciprocity of perspectives
-description: lil pape
----
-
 # Wagner 2018: The reciprocity of perspectives
 
 @[toc]

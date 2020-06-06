@@ -3,6 +3,7 @@ const app = express()
 const port = 3000
 const fs = require('fs')
 const index = require('./index')
+const style = require('./css')
 
 function customWikiLinks(label) {
   console.log(label);
@@ -30,7 +31,7 @@ app.get('/texts/:id', (req , res) => {
   fs.readFile('./texts/' + req.params.id + '.md', 'utf8', (err, data) => {
     if (err) return res.send('404 Not Found');
     mdFile = md.render(data);
-    return res.send(mdFile);
+    return res.send(style + mdFile);
   });
 });
 

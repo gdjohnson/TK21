@@ -1,8 +1,9 @@
 const fs = require('fs')
-const md = require('markdown-it')()  
+const md = require('markdown-it')()
+const style = require('./css')
 
 const getLinkList = (folder) => {
-  let linkList = '';
+  let linkList = style;
   
   fs.readdirSync(folder)
     .filter((file) => file.indexOf('.') !== 0)

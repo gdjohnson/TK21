@@ -1,7 +1,4 @@
----
-title: Telephone effect
-description: Them Chinese whispers
----
+@[toc]
 
 # Telephone effect
 
@@ -13,7 +10,7 @@ In popular discourse, related to the effect _Concepts do not convert people; peo
 
 fr. Regier, Carstensen, Kemp 2016: Languages Support Efficient Communication about the Environment.
 
-Franz Boas observed that certain Eskimo languages have unrelated forms for subtypes of snow (e.g. aput: snow on the ground, qana: falling snow), and thus subdivide the notion of snow more finely than English does [1]. He suggested that such cross-language variation in the grouping of ideas into named categories “must to a certain extent depend upon the chief interests of a people” [1]. Boas’ Eskimo example was repeated by Whorf [2], and was subsequently exaggerated through popularization, leading to grossly inflated claims about the number of words for snow in Eskimo languages. Through this exaggeration and resulting critique [3, 4], the snow example has acquired an air of unseriousness, and it tends to be avoided by many scholars. However, recent work has suggested some empirical support for the original claim prior to its distortion [5], motivating a broader re-examination across languages, and greater theoretical attention.
+> Franz Boas observed that certain Eskimo languages have unrelated forms for subtypes of snow (e.g. aput: snow on the ground, qana: falling snow), and thus subdivide the notion of snow more finely than English does [1]. He suggested that such cross-language variation in the grouping of ideas into named categories “must to a certain extent depend upon the chief interests of a people” [1]. Boas’ Eskimo example was repeated by Whorf [2], and was subsequently exaggerated through popularization, leading to grossly inflated claims about the number of words for snow in Eskimo languages. Through this exaggeration and resulting critique [3, 4], the snow example has acquired an air of unseriousness, and it tends to be avoided by many scholars. However, recent work has suggested some empirical support for the original claim prior to its distortion [5], motivating a broader re-examination across languages, and greater theoretical attention.
 
 ## Chat History
 

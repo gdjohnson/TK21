@@ -1,8 +1,3 @@
----
-title: Markov blankets
-description: layers and layers and layers
----
-
 # Markov blankets
 
 @[toc]
