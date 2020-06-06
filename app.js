@@ -25,7 +25,6 @@ const getFileList = () => {
     fileSE = file.slice(0, file.length - 3)
     files[fileSE] = '/concepts/' + fileSE
   })
-  console.log(files)
   return files
 }
 

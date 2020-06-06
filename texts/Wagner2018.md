@@ -40,7 +40,7 @@ The "enemy's point of view" (here he quotes Vivieros de Castro, 1992) provides t
 
 This "really" that Wagner sees humanity as doing is, as I understand it, the reciprocity of perspectives—the self-alienation or inversion of an established view or truth such as to produce a more holistic perspective—a kind of dialectical sublation. This sublation or transposition of subject and object is a "metaphorical" placing of things in relation to one another—and here "each term of the metaphor, the tenor and the vehicle, serves as *both* signifier and signified in relation to the other.... a metaphor has no subject because it is basically a subject/object shift." He appears to be arguing, like [Hofstadter 2001: Analogy As The Core of Cognition](https://www.notion.so/Hofstadter-2001-Analogy-As-The-Core-of-Cognition-ab4d6c2109fa49c48a9e4b5337348d0a) and [Lakoff 1993: Contemporary Theory of Metaphor](https://www.notion.so/Lakoff-1993-Contemporary-Theory-of-Metaphor-401f0cf483414b82a7035cbfbfbb0ffc) that cognition "is not about the lexicon or the set of its referents in the real world.... [but] about *comparisons*, beginning with the acute comparison of words with one another that we call metaphor." (See Nietzsche on the "metaphorical" removes of our perception & linguistic understanding from the thing itself, in *On Truth & Lies in a Nonmoral Sense*):
 
-To begin with, a nerve stimulus is transferred into an image: first metaphor. The image, in turn, is imitated in a sound: second metaphor. And each time there is a complete overleaping of one sphere, right into the middle of an entirely new and different one
+> To begin with, a nerve stimulus is transferred into an image: first metaphor. The image, in turn, is imitated in a sound: second metaphor. And each time there is a complete overleaping of one sphere, right into the middle of an entirely new and different one
 
 Later Wagner quotes Thoreau: "All perception of the truth is the detection of an analogy." 
 
@@ -48,11 +48,11 @@ Later Wagner quotes Thoreau: "All perception of the truth is the detection of an
 
 Robert Foster on Roy Wagner:
 
-Like metaphor (their verbal counterpart), images 'contain 'and 'elicit' all the glosses and thus lend themselves more to direct experience or revelation than to description or verbal summary. Meaning, then, as Wagner broadly contends in *Symbols That Stand For Themselves* (STSFT), is itself a perception 'elicited' by unglossable and paradoxical tropes—metaphor, analogy, image.
+> Like metaphor (their verbal counterpart), images 'contain 'and 'elicit' all the glosses and thus lend themselves more to direct experience or revelation than to description or verbal summary. Meaning, then, as Wagner broadly contends in *Symbols That Stand For Themselves* (STSFT), is itself a perception 'elicited' by unglossable and paradoxical tropes—metaphor, analogy, image.
 
 Sarah Perry, "Ambiguity As Meaning":
 
-...ambiguity is the essence of meaning. Here I mean “meaning” in the sense of the profound, the artistically deep, the spiritually relevant – not in the crude sense of “pointing” that I previously examined. The story of the Garden of Eden, *The Shining*, your *Hamlet* and *Bend Sinister*, the evidence of their profundity (that is to say, ambiguity) lies in the multitude of interpretations they support.
+> ...ambiguity is the essence of meaning. Here I mean “meaning” in the sense of the profound, the artistically deep, the spiritually relevant – not in the crude sense of “pointing” that I previously examined. The story of the Garden of Eden, *The Shining*, your *Hamlet* and *Bend Sinister*, the evidence of their profundity (that is to say, ambiguity) lies in the multitude of interpretations they support.
 
 ### Good design capture polysemy via ambiguity
 
